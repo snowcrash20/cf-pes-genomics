@@ -1,0 +1,11 @@
+sample,taxon_name,contig_count,percent_of_sample_contigs
+Onset,Pseudomonas aeruginosa,60,7.3892
+Resolution,Pseudomonas aeruginosa,2087,84.1193
+Onset,Streptococcus salivarius,634,78.0788
+Resolution,Streptococcus salivarius,1,0.0403
+Onset,Streptococcus intermedius,0,0.0
+Resolution,Streptococcus intermedius,158,6.3684
+Onset,Streptococcus sp. FDAARGOS_192,16,1.9704
+Resolution,Streptococcus sp. FDAARGOS_192,0,0.0
+Onset,Streptococcus sp. HSISS2,8,0.9852
+Resolution,Streptococcus sp. HSISS2,0,0.0

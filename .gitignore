@@ -3,7 +3,9 @@
 .Ruserdata
 .Rproj.user/
 
-results/
+results/*
+!results/representative_real/
+!results/representative_real/**
 
 data/reference/
 data/snp_tables/

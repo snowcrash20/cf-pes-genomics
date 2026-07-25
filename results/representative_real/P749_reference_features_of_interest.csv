@@ -1,0 +1,25 @@
+sequence_id,start,stop,strand,locus_tag,gene,product
+contig_1,42421,52938,+,GHKNJH_00042,tpsA2,two-partner secretion system putative hemagglutinin TpsA2
+contig_1,260610,261551,+,GHKNJH_00238,lysR,LysR family transcriptional regulator
+contig_1,294913,295431,-,GHKNJH_00268,hcpA,Hcp family type VI secretion system effector
+contig_1,470526,471677,+,GHKNJH_00439,mexA,multidrug efflux RND transporter periplasmic adaptor subunit MexA
+contig_1,545500,546258,-,GHKNJH_00501,lysR,LysR family transcriptional regulator
+contig_1,725804,727924,+,GHKNJH_00691,fusA,elongation factor G
+contig_1,908372,909259,+,GHKNJH_00854,ampR,LysR family transcriptional regulator AmpR
+contig_1,1345190,1346095,-,GHKNJH_01262,lysR,LysR family transcriptional regulator
+contig_1,1533488,1535119,-,GHKNJH_01432,algE,outer membrane protein AlgE
+contig_1,1535140,1536612,-,GHKNJH_01433,algE,outer membrane porin AlgE
+contig_1,1539302,1540783,-,GHKNJH_01436,alg8,mannuronan synthase
+contig_1,1647080,1648228,+,GHKNJH_01530,ssuD,FMNH2-dependent alkanesulfonate monooxygenase
+contig_1,1773377,1774291,-,GHKNJH_01656,lysR,LysR family transcriptional regulator
+contig_1,1938532,1941303,+,GHKNJH_01819,gyrA,DNA gyrase subunit A GyrA
+contig_1,2992193,2993338,+,GHKNJH_02772,ssuD,FMNH2-dependent alkanesulfonate monooxygenase
+contig_1,3338407,3340515,-,GHKNJH_03079,fusA,elongation factor G
+contig_1,4058194,4058712,+,GHKNJH_03752,hcpA,Hcp family type VI secretion system effector
+contig_1,4330273,4330707,-,GHKNJH_04008,,DNA-Binding protein G5P
+contig_1,5256998,5261245,+,GHKNJH_04884,morA,cyclic di-GMP receptor MorA
+contig_1,5348768,5349202,-,GHKNJH_04971,,DNA-Binding protein G5P
+contig_1,5609962,5610858,+,GHKNJH_05220,lysR,LysR family transcriptional regulator
+contig_1,5835510,5836418,+,GHKNJH_05410,lysR,LysR family transcriptional regulator
+contig_1,6044759,6045277,-,GHKNJH_05603,hcpA,Hcp family type VI secretion system effector
+contig_1,6231831,6232781,+,GHKNJH_05778,pycR,LysR family transcriptional regulator PycR

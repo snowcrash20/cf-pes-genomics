@@ -44,3 +44,6 @@ jobs:
 
       - name: Run synthetic examples
         run: bash scripts/run_examples.sh
+
+      - name: Validate representative outputs
+        run: python tests/validate_representative_results.py

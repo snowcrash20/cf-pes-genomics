@@ -37,6 +37,25 @@ interpretations require additional validation.
 These observations describe the original study dataset; the included synthetic
 data are intended only to demonstrate the code.
 
+## Representative real results
+
+The repository also contains a compact, deidentified example derived from two
+real longitudinal project samples:
+
+![Representative bacterial species assignments](results/representative_real/representative_kraken_species.png)
+
+Only aggregate taxonomy counts, cumulative lengths, a compact Kraken2 report
+summary, and selected reference annotations are included. Original sample IDs,
+contig identifiers, per-contig k-mer hit lists, reads, and assembled sequences
+are excluded. Host-classified assignments are collapsed to
+`Host-classified`.
+
+**These representative outputs remain patient-associated research results.
+Confirm public sharing with the supervisor or data owner before pushing the
+`results/representative_real/` directory to GitHub.** See the
+[representative-results documentation](results/representative_real/README.md)
+for provenance and regeneration instructions.
+
 ## Repository layout
 
 ```text
@@ -55,9 +74,13 @@ data are intended only to demonstrate the code.
 │   └── upstream_hpc_workflow.md
 ├── scripts/
 │   ├── install_r_dependencies.R
+│   ├── prepare_representative_results.py
 │   └── run_examples.sh
 ├── tests/
-│   └── validate_example_outputs.R
+│   ├── validate_example_outputs.R
+│   └── validate_representative_results.py
+├── results/
+│   └── representative_real/
 ├── .github/workflows/
 │   └── smoke-test.yml
 ├── environment.yml

@@ -6,6 +6,8 @@ channels:
   - defaults
 
 dependencies:
+  - python=3.11
+  - matplotlib-base
   - r-base=4.4
   - r-dplyr
   - r-ggplot2
