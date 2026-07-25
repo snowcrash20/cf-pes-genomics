@@ -1,0 +1,8 @@
+##gff-version 3
+##sequence-region P749 1 1000
+P749	Bakta	CDS	100	220	.	+	0	ID=cds_PA1874;locus_tag=PA1874;product=Ig-like domain-containing protein
+P749	Bakta	gene	100	220	.	+	.	ID=gene_PA1874;Name=PA1874
+P749	Bakta	CDS	300	430	.	-	0	ID=cds_mexA;gene=mexA;locus_tag=GHKNJH_00200;product=Multidrug efflux RND transporter periplasmic adaptor subunit MexA
+P749	Bakta	gene	300	430	.	-	.	ID=gene_mexA;Name=mexA
+P749	Bakta	CDS	600	760	.	+	0	ID=cds_alg8;gene=alg8;locus_tag=GHKNJH_00300;product=Mannuronan synthase
+P749	Bakta	gene	600	760	.	+	.	ID=gene_alg8;Name=alg8

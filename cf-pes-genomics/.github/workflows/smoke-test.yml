@@ -1,0 +1,46 @@
+name: R smoke test
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.4"
+          use-public-rspm: true
+
+      - name: Install system and R dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: |
+            any::dplyr
+            any::ggplot2
+            any::purrr
+            any::readr
+            any::rlang
+            any::stringr
+            any::tibble
+            any::tidyr
+            bioc::Biostrings
+            bioc::GenomicRanges
+            bioc::IRanges
+            bioc::rtracklayer
+            bioc::S4Vectors
+          needs: check
+
+      - name: Run synthetic examples
+        run: bash scripts/run_examples.sh
