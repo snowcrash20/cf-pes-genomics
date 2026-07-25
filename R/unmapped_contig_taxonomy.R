@@ -202,10 +202,13 @@ read_one_sample <- function(sample) {
     dplyr::mutate(
       classification = dplyr::coalesce(classification, "U"),
       taxid = dplyr::coalesce(taxid, "0"),
-      taxon_name = dplyr::coalesce(
-        taxon_name_inline,
-        taxon_name_report,
-        "Unclassified"
+      taxon_name = dplyr::case_when(
+        classification == "U" | taxid == "0" ~ "Unclassified",
+        TRUE ~ dplyr::coalesce(
+          taxon_name_inline,
+          taxon_name_report,
+          "Unclassified"
+        )
       ),
       rank = dplyr::coalesce(rank, "U"),
       sample = sample
